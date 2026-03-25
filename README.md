@@ -1,4 +1,6 @@
-# 3D-Druck Telegram Snapshot Script
+# 3D-Druck Telegram Snapshot Script v2.1
+
+[![Version](https://img.shields.io/badge/version-2.1-brightgreen)] [![License](https://img.shields.io/badge/license-MIT-blue.svg)] [![ioBroker](https://img.shields.io/badge/ioBroker-compatible-yellow)]
 
 Dieses Projekt ist ein ioBroker-JavaScript, das den Status deines 3D-Druckers überwacht und per Telegram regelmäßig Snapshots deiner Drucker-Webcam mit Fortschrittsbalken, Restzeit und Dateinamen sendet.
 
@@ -30,7 +32,7 @@ Dieses Projekt ist ein ioBroker-JavaScript, das den Status deines 3D-Druckers ü
 ## Installation
 
 1. **Script anlegen**
-   - In ioBroker Admin zu „Skripte“ wechseln.  
+   - In ioBroker Admin zu „Skripte" wechseln.  
    - Neues Skript im JavaScript-Adapter erstellen.  
    - Den kompletten Script-Code aus diesem Repository einfügen.
 
@@ -59,9 +61,9 @@ Dieses Projekt ist ein ioBroker-JavaScript, das den Status deines 3D-Druckers ü
 
 ### 2. Datenpunkte des Druckers finden
 
-1. Im ioBroker-Admin unter „Objekte“ nach deinem Drucker-Adapter suchen (z.B. `Snapmaker_U1`).  
+1. Im ioBroker-Admin unter „Objekte" nach deinem Drucker-Adapter suchen (z.B. `Snapmaker_U1`).  
 2. Die relevanten Datenpunkte identifizieren:
-   - Status (String, z.B. „printing“)  
+   - Status (String, z.B. „printing")  
    - Fortschritt (Zahl in Prozent)  
    - Dateiname (String)  
    - Restzeit (Sekunden)  
@@ -100,7 +102,7 @@ MIT License
 Copyright (c) 2026 Christian Wimmer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
+of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -109,7 +111,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
